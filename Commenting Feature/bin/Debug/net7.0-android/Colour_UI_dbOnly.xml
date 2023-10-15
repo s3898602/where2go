@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Colour_UI_dbOnly</name>
+    </assembly>
+    <members>
+        <member name="T:Colour_UI_dbOnly.ViewModels.CommentsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.Comments">
+            <inheritdoc cref="F:Colour_UI_dbOnly.ViewModels.CommentsViewModel._comments"/>
+        </member>
+        <member name="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.OperatingComment">
+            <inheritdoc cref="F:Colour_UI_dbOnly.ViewModels.CommentsViewModel._operatingComment"/>
+        </member>
+        <member name="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.IsBusy">
+            <inheritdoc cref="F:Colour_UI_dbOnly.ViewModels.CommentsViewModel._isBusy"/>
+        </member>
+        <member name="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.BusyText">
+            <inheritdoc cref="F:Colour_UI_dbOnly.ViewModels.CommentsViewModel._busyText"/>
+        </member>
+        <member name="F:Colour_UI_dbOnly.ViewModels.CommentsViewModel.loadCommentsCommand">
+            <summary>The backing field for <see cref="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.LoadCommentsCommand"/>.</summary>
+        </member>
+        <member name="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.LoadCommentsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Colour_UI_dbOnly.ViewModels.CommentsViewModel.LoadCommentsAsync"/>.</summary>
+        </member>
+        <member name="F:Colour_UI_dbOnly.ViewModels.CommentsViewModel.setOperatingCommentCommand">
+            <summary>The backing field for <see cref="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.SetOperatingCommentCommand"/>.</summary>
+        </member>
+        <member name="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.SetOperatingCommentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Colour_UI_dbOnly.ViewModels.CommentsViewModel.SetOperatingComment(Colour_UI_dbOnly.Models.Comment)"/>.</summary>
+        </member>
+        <member name="F:Colour_UI_dbOnly.ViewModels.CommentsViewModel.saveCommentCommand">
+            <summary>The backing field for <see cref="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.SaveCommentCommand"/>.</summary>
+        </member>
+        <member name="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.SaveCommentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Colour_UI_dbOnly.ViewModels.CommentsViewModel.SaveCommentAsync"/>.</summary>
+        </member>
+        <member name="F:Colour_UI_dbOnly.ViewModels.CommentsViewModel.deleteCommentCommand">
+            <summary>The backing field for <see cref="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.DeleteCommentCommand"/>.</summary>
+        </member>
+        <member name="P:Colour_UI_dbOnly.ViewModels.CommentsViewModel.DeleteCommentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Colour_UI_dbOnly.ViewModels.CommentsViewModel.DeleteCommentAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Comments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Comments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.OperatingComment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "OperatingComment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BusyText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BusyText" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Comments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Comments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.OperatingComment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "OperatingComment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BusyText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BusyText" generated properties.</summary>
+        </member>
+    </members>
+</doc>

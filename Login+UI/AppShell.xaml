@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Way2Go.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Way2Go"
+    Shell.FlyoutBehavior="Disabled"
+    BackgroundColor="#90ac6c">
+
+    <TabBar>
+        <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" 
+        Icon="{OnPlatform 'login_icon.png'}" />
+
+        <ShellContent
+        Title="Navigation" 
+        ContentTemplate="{DataTemplate local:Navigation}"
+        Route="Navigation"
+        Icon="{OnPlatform 'nav_icon.png'}"/>
+
+        <ShellContent
+        Title="Comments" 
+        ContentTemplate="{DataTemplate local:Comments}"
+        Route="Comments"
+        Icon="{OnPlatform 'comments_icon.png'}"/>
+
+        <ShellContent
+        Title="Settings"
+        ContentTemplate="{DataTemplate local:Settings}"
+        Route="Settings"
+        Icon="{OnPlatform 'settings_icon.png'}"/>
+
+    </TabBar>
+
+</Shell>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Way2Go.WholeFloor"
+             Title="WholeFloor">
+    <VerticalStackLayout>
+        <Label FontSize="30" 
+           Text="Level 8" 
+           HorizontalTextAlignment="Center"
+           Margin="10"/>
+
+        <Image Source="images/map_small.png>" 
+           Margin="5"/>
+
+        <Entry x:Name="WF_Comment" 
+           Placeholder="Add a Comment..." 
+           TextChanged="WF_Comment_TextChanged" 
+           Completed="WF_Comment_Completed" 
+           HeightRequest="60" 
+           FontSize="18"/>
+    </VerticalStackLayout>
+</ContentPage>

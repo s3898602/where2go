@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Way2Go.Building14"
+             Title="Building14">
+    <VerticalStackLayout>
+        <Label FontSize="30" 
+           Text="Building 14" 
+           HorizontalTextAlignment="Center" 
+           Margin="10"/>
+        <Image Source="images/building14.png>" 
+           Margin="5" 
+           HeightRequest="500"/>
+        <Entry x:Name="B14_Comment" 
+           Placeholder="Add a Comment..." 
+           TextChanged="B14_Comment_TextChanged" 
+           Completed="B14_Comment_Completed" 
+           HeightRequest="60" 
+           FontSize="18"/>
+    </VerticalStackLayout>
+</ContentPage>

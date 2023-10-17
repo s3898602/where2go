@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Way2Go"
+             BackgroundColor="White"
+             x:Class="Way2Go.MainPage">
+
+    <ScrollView>
+        <StackLayout
+            Spacing="20"
+            Padding="20,40"
+            VerticalOptions="CenterAndExpand">
+
+            <Image Source="logo.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="Center" />
+
+            <Label Text="Welcome to Way2Go!"
+                   FontSize="24"
+                   HorizontalOptions="Center" />
+
+            <Entry Placeholder="Username" x:Name="usernameEntry" />
+            <Entry Placeholder="Password" IsPassword="true" x:Name="passwordEntry" />
+
+            <Button Text="Admin Login" Clicked="OnLoginButtonClicked" BackgroundColor="#90ac6c" />
+            <Button Text="Continue as Guest" Clicked="OnGuestButtonClicked" BackgroundColor="#90ac6c" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

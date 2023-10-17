@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Way2Go"
+             BackgroundColor="White"
+             x:Class="Way2Go.Settings">
+
+    <StackLayout Margin="20" Spacing="20">
+        <Label Text="Settings" FontSize="24" HorizontalOptions="CenterAndExpand" Margin="0,20,0,20" />
+
+        <Label Text="Enable Notifications" FontSize="18" />
+        <Switch x:Name="NotificationsSwitch" HorizontalOptions="Start" BackgroundColor="White"/>
+
+        <Label Text="Sound Volume" FontSize="18" />
+        <Slider x:Name="VolumeSlider" Maximum="100" HorizontalOptions="FillAndExpand" BackgroundColor="White"/>
+
+        <Label Text="Email Address" FontSize="18" />
+        <Entry x:Name="EmailEntry" Placeholder="Enter your email" />
+
+        <Button Text="Save Settings" Clicked="OnSaveButtonClicked" HorizontalOptions="Center" BackgroundColor="#90ac6c" />
+    </StackLayout>
+
+</ContentPage>

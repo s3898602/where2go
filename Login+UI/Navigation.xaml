@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Way2Go"
+             BackgroundColor="White"
+             x:Class="Way2Go.Navigation">
+
+    <VerticalStackLayout
+    Spacing="50"
+    Margin="10">
+
+        <HorizontalStackLayout Spacing="30">
+            <Image HeightRequest="60" 
+               Source="images/logo.png>"/>
+            <Label FontSize="30" 
+               Text="Select a Building" 
+               HorizontalTextAlignment="Center" 
+               Margin="10"></Label>
+        </HorizontalStackLayout>
+
+        <Button x:Name="B10" Text="Building 10" Clicked="B10_Clicked" HeightRequest="60" BackgroundColor="#90ac6c" />
+        <Button x:Name="B12" Text="Building 12" Clicked="B12_Clicked" HeightRequest="60" BackgroundColor="#90ac6c" />
+        <Button x:Name="B14" Text="Building 14" Clicked="B14_Clicked" HeightRequest="60" BackgroundColor="#90ac6c" />
+        <Button x:Name="WF" Text="Whole Floor" Clicked="WF_Clicked" HeightRequest="60" BackgroundColor="#90ac6c" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

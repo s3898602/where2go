@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Colour_UI_dbOnly
-build_property.ProjectDir = C:\Users\nattd\Documents\Bachelor of I.T\COSC2625 Building IT Systems\Colour_UI_dbOnly\
+build_property.ProjectDir = c:\Users\Abby\Downloads\where2go\Commenting Feature\
 
-[C:/Users/nattd/Documents/Bachelor of I.T/COSC2625 Building IT Systems/Colour_UI_dbOnly/App.xaml]
+[c:/Users/Abby/Downloads/where2go/Commenting Feature/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Colour_UI_dbOnly.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/nattd/Documents/Bachelor of I.T/COSC2625 Building IT Systems/Colour_UI_dbOnly/AppShell.xaml]
+[c:/Users/Abby/Downloads/where2go/Commenting Feature/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Colour_UI_dbOnly.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/nattd/Documents/Bachelor of I.T/COSC2625 Building IT Systems/Colour_UI_dbOnly/MainPage.xaml]
+[c:/Users/Abby/Downloads/where2go/Commenting Feature/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Colour_UI_dbOnly.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/nattd/Documents/Bachelor of I.T/COSC2625 Building IT Systems/Colour_UI_dbOnly/Resources/Styles/Colors.xaml]
+[c:/Users/Abby/Downloads/where2go/Commenting Feature/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Colour_UI_dbOnly.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/nattd/Documents/Bachelor of I.T/COSC2625 Building IT Systems/Colour_UI_dbOnly/Resources/Styles/Styles.xaml]
+[c:/Users/Abby/Downloads/where2go/Commenting Feature/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Colour_UI_dbOnly.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

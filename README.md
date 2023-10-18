@@ -7,5 +7,5 @@ Jaideep Singh	s3948197
 Franco Celis	s3947046
 Rishi Sarup	s3898602
 Georgiana Peace	s3966082
-Natanya De Silva	s3488872
+Natanya de Silva	s3488872
 Pucksuly Siharath	s3900851
